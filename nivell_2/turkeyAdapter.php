@@ -18,13 +18,11 @@
         }
 
         public function fly() {
-
-            $this -> turkey -> fly().'<br>'; 
-            $this -> turkey -> fly().'<br>'; 
-            $this -> turkey -> fly().'<br>'; 
-            $this -> turkey -> fly().'<br>'; 
-            $this -> turkey -> fly().'<br>'; 
-            
+             
+            for($i = 0; $i <= 4; $i++) {
+              $this -> turkey -> fly().'<br>';
+            } 
+              
         }
     }
 
